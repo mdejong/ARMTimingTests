@@ -312,6 +312,8 @@
 		CD28ED9D178380BF006E6660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARMTimingTests/ARMTimingTests-Prefix.pch";
 				INFOPLIST_FILE = "ARMTimingTests/ARMTimingTests-Info.plist";
@@ -323,6 +325,8 @@
 		CD28ED9E178380BF006E6660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARMTimingTests/ARMTimingTests-Prefix.pch";
 				INFOPLIST_FILE = "ARMTimingTests/ARMTimingTests-Info.plist";
