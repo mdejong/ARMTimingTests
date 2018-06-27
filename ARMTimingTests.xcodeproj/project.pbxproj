@@ -170,6 +170,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = helpurock;
+				TargetAttributes = {
+					CD28ED75178380BF006E6660 = {
+						DevelopmentTeam = 9F74CLHA49;
+					};
+				};
 			};
 			buildConfigurationList = CD28ED71178380BF006E6660 /* Build configuration list for PBXProject "ARMTimingTests" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -313,10 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
+				DEVELOPMENT_TEAM = 9F74CLHA49;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARMTimingTests/ARMTimingTests-Prefix.pch";
 				INFOPLIST_FILE = "ARMTimingTests/ARMTimingTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpurock.ARMTimingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -326,10 +334,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
+				DEVELOPMENT_TEAM = 9F74CLHA49;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARMTimingTests/ARMTimingTests-Prefix.pch";
 				INFOPLIST_FILE = "ARMTimingTests/ARMTimingTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpurock.ARMTimingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
